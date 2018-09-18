@@ -23,13 +23,13 @@ public class Insect : MonoBehaviour
         //Add force to insect
         _rgd.AddForce(dir * _speed, ForceMode.VelocityChange);
         //Ensure velocity isn't greater than max velocity
-        if (_rgd.velocity.magnitude > _maxVelocity) _rgd.velocity = _rgd.velocity.normalized * _maxVelocity;
+        if (_rgd.velocity.magnitude > _maxVelocity) _rgd.velocity = _rgd.transform.forward * _maxVelocity;
         _rgd.rotation = Quaternion.Euler((_rgd.rotation.eulerAngles.y + rot) * Vector3.up);
     }
 
     public void Jump(float force)
     {
-        _rgd.AddRelativeForce(Vector3.up * force);
+        _rgd.AddForce(Vector3.up * force, ForceMode.VelocityChange);
     }
 
     public void Attack(Vector3 point, Bullet.BulletType bulletType)
