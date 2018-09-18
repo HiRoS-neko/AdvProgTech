@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    
     [SerializeField, Range(1, 5)] private float _cameraSens;
-    
+
     [SerializeField] private Insect _playerObj;
 
-    [SerializeField] private Camera _camera;
+    [SerializeField] private GameObject _camera;
+    //clamp from 0 to 50
 
     private Vector3 _dir;
 
@@ -22,8 +22,11 @@ public class PlayerController : MonoBehaviour
 
         _rot = Input.GetAxis("Mouse X") * _cameraSens;
 
-        _camera.transform.rotation =
-            Quaternion.Euler(_camera.transform.rotation.eulerAngles + Input.GetAxis("Mouse Y") * _cameraSens * Vector3.right);
+        //todo refactor this
+        _camera.transform.localRotation = Quaternion.Euler(
+            Mathf.LerpAngle(_camera.transform.localRotation.eulerAngles.x, Mathf.Clamp(
+                    _camera.transform.localRotation.eulerAngles.x + Input.GetAxis("Mouse Y") * _cameraSens, 0, 50),
+                0.5f) * Vector3.right);
 
         if (Input.GetButtonDown("Jump")) _playerObj.Jump(5);
     }
