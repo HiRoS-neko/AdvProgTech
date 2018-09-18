@@ -18,11 +18,6 @@ public class Insect : MonoBehaviour
         if (_rgd == null) _rgd = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-    }
-
     public void Move(Vector3 dir, float rot)
     {
         //Add force to insect
@@ -35,5 +30,10 @@ public class Insect : MonoBehaviour
     public void Jump(float force)
     {
         _rgd.AddRelativeForce(Vector3.up * force);
+    }
+
+    public void Attack(Vector3 point, Bullet.BulletType bulletType)
+    {
+        //todo fire bulletType at point
     }
 }
