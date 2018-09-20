@@ -57,3 +57,4 @@
  (0,0): [09/20/2018 08:03:45.893 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\kg15nd\AdvProgTech\Temp\Assembly-CSharp.dll
  (0,0): [09/20/2018 08:03:45.917 PM] Assembly-CSharp.dll compilation finished in 47ms  source files re-parsed: 4 metadata reloaded: 4
  (0,0): [09/20/2018 08:08:09.377 PM] Compiler cache size is now 17.49 MB
+ (0,0): watchdog triggered an exit
