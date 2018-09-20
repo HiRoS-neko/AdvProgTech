@@ -1,0 +1,59 @@
+ (0,0): Unity incremental compiler server
+ (0,0): watchdog active on pid: 5492
+ (0,0): [09/20/2018 08:03:13.750 PM] Unity.Postprocessing.Runtime.dll: no prior compilation found in cache
+ (0,0): [09/20/2018 08:03:13.766 PM] Unity.Postprocessing.Runtime.dll compiling...
+ (0,0): [09/20/2018 08:03:13.778 PM] Unity.TextMeshPro.dll: no prior compilation found in cache
+ (0,0): [09/20/2018 08:03:13.790 PM] Unity.TextMeshPro.dll compiling...
+ (0,0): [09/20/2018 08:03:13.796 PM] Unity.PackageManagerUI.Editor.dll: no prior compilation found in cache
+ (0,0): [09/20/2018 08:03:13.808 PM] Unity.PackageManagerUI.Editor.dll compiling...
+ (0,0): [09/20/2018 08:03:13.987 PM] UnityEditor.StandardEvents.dll: no prior compilation found in cache
+ (0,0): [09/20/2018 08:03:13.999 PM] UnityEditor.StandardEvents.dll compiling...
+ (0,0): [09/20/2018 08:03:16.541 PM] Unity.PackageManagerUI.Editor.dll: emitting IL to : C:\Users\kg15nd\AdvProgTech\Temp\Unity.PackageManagerUI.Editor.dll
+ (0,0): [09/20/2018 08:03:16.541 PM] UnityEditor.StandardEvents.dll: emitting IL to : C:\Users\kg15nd\AdvProgTech\Temp\UnityEditor.StandardEvents.dll
+ (0,0): [09/20/2018 08:03:16.541 PM] Unity.TextMeshPro.dll: emitting IL to : C:\Users\kg15nd\AdvProgTech\Temp\Unity.TextMeshPro.dll
+ (0,0): [09/20/2018 08:03:16.541 PM] Unity.Postprocessing.Runtime.dll: emitting IL to : C:\Users\kg15nd\AdvProgTech\Temp\Unity.Postprocessing.Runtime.dll
+ (0,0): [09/20/2018 08:03:16.615 PM] UnityEditor.StandardEvents.dll compilation finished in 2616ms  source files re-parsed: 1 metadata reloaded: 104
+ (0,0): [09/20/2018 08:03:16.615 PM] Unity.PackageManagerUI.Editor.dll compilation finished in 2808ms  source files re-parsed: 44 metadata reloaded: 137
+ (0,0): [09/20/2018 08:03:16.635 PM] Unity.TextMeshPro.dll compilation finished in 2845ms  source files re-parsed: 45 metadata reloaded: 208
+ (0,0): [09/20/2018 08:03:16.664 PM] Unity.Postprocessing.Runtime.dll compilation finished in 2897ms  source files re-parsed: 56 metadata reloaded: 202
+ (0,0): [09/20/2018 08:03:17.035 PM] Unity.TextMeshPro.Editor.dll: no prior compilation found in cache
+ (0,0): [09/20/2018 08:03:17.047 PM] Unity.TextMeshPro.Editor.dll compiling...
+ (0,0): [09/20/2018 08:03:17.190 PM] Unity.Postprocessing.Editor.dll: no prior compilation found in cache
+ (0,0): [09/20/2018 08:03:17.204 PM] Unity.Postprocessing.Editor.dll compiling...
+ (0,0): [09/20/2018 08:03:17.297 PM] Unity.TextMeshPro.Editor.dll: emitting IL to : C:\Users\kg15nd\AdvProgTech\Temp\Unity.TextMeshPro.Editor.dll
+ (0,0): [09/20/2018 08:03:17.332 PM] Unity.Postprocessing.Editor.dll: emitting IL to : C:\Users\kg15nd\AdvProgTech\Temp\Unity.Postprocessing.Editor.dll
+ (0,0): [09/20/2018 08:03:17.408 PM] Unity.Postprocessing.Editor.dll compilation finished in 203ms  source files re-parsed: 35 metadata reloaded: 1
+ (0,0): [09/20/2018 08:03:17.426 PM] Unity.TextMeshPro.Editor.dll compilation finished in 379ms  source files re-parsed: 39 metadata reloaded: 1
+ (0,0): [09/20/2018 08:03:19.278 PM] Assembly-CSharp.dll: no prior compilation found in cache
+ (0,0): [09/20/2018 08:03:19.290 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/20/2018 08:03:19.313 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\kg15nd\AdvProgTech\Temp\Assembly-CSharp.dll
+ (0,0): [09/20/2018 08:03:19.339 PM] Assembly-CSharp.dll compilation finished in 49ms  source files re-parsed: 4 metadata reloaded: 4
+ (0,0): [09/20/2018 08:03:44.282 PM] Unity.Postprocessing.Runtime.dll: no prior compilation found in cache
+ (0,0): [09/20/2018 08:03:44.294 PM] Unity.Postprocessing.Runtime.dll compiling...
+ (0,0): [09/20/2018 08:03:44.419 PM] Unity.TextMeshPro.dll: no prior compilation found in cache
+ (0,0): [09/20/2018 08:03:44.430 PM] Unity.TextMeshPro.dll compiling...
+ (0,0): [09/20/2018 08:03:44.437 PM] Unity.Postprocessing.Runtime.dll: emitting IL to : C:\Users\kg15nd\AdvProgTech\Temp\Unity.Postprocessing.Runtime.dll
+ (0,0): [09/20/2018 08:03:44.482 PM] Unity.PackageManagerUI.Editor.dll: no prior compilation found in cache
+ (0,0): [09/20/2018 08:03:44.494 PM] Unity.PackageManagerUI.Editor.dll compiling...
+ (0,0): [09/20/2018 08:03:44.550 PM] Unity.Postprocessing.Runtime.dll compilation finished in 256ms  source files re-parsed: 56 metadata reloaded: 0
+ (0,0): [09/20/2018 08:03:44.639 PM] UnityEditor.StandardEvents.dll: no prior compilation found in cache
+ (0,0): [09/20/2018 08:03:44.699 PM] UnityEditor.StandardEvents.dll compiling...
+ (0,0): [09/20/2018 08:03:44.756 PM] UnityEditor.StandardEvents.dll: emitting IL to : C:\Users\kg15nd\AdvProgTech\Temp\UnityEditor.StandardEvents.dll
+ (0,0): [09/20/2018 08:03:44.757 PM] Unity.PackageManagerUI.Editor.dll: emitting IL to : C:\Users\kg15nd\AdvProgTech\Temp\Unity.PackageManagerUI.Editor.dll
+ (0,0): [09/20/2018 08:03:44.801 PM] UnityEditor.StandardEvents.dll compilation finished in 102ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/20/2018 08:03:44.827 PM] Unity.PackageManagerUI.Editor.dll compilation finished in 333ms  source files re-parsed: 44 metadata reloaded: 0
+ (0,0): [09/20/2018 08:03:44.926 PM] Unity.Postprocessing.Editor.dll: no prior compilation found in cache
+ (0,0): [09/20/2018 08:03:44.933 PM] Unity.TextMeshPro.dll: emitting IL to : C:\Users\kg15nd\AdvProgTech\Temp\Unity.TextMeshPro.dll
+ (0,0): [09/20/2018 08:03:44.938 PM] Unity.Postprocessing.Editor.dll compiling...
+ (0,0): [09/20/2018 08:03:45.029 PM] Unity.Postprocessing.Editor.dll: emitting IL to : C:\Users\kg15nd\AdvProgTech\Temp\Unity.Postprocessing.Editor.dll
+ (0,0): [09/20/2018 08:03:45.048 PM] Unity.TextMeshPro.dll compilation finished in 617ms  source files re-parsed: 45 metadata reloaded: 0
+ (0,0): [09/20/2018 08:03:45.108 PM] Unity.Postprocessing.Editor.dll compilation finished in 170ms  source files re-parsed: 35 metadata reloaded: 1
+ (0,0): [09/20/2018 08:03:45.270 PM] Unity.TextMeshPro.Editor.dll: no prior compilation found in cache
+ (0,0): [09/20/2018 08:03:45.282 PM] Unity.TextMeshPro.Editor.dll compiling...
+ (0,0): [09/20/2018 08:03:45.431 PM] Unity.TextMeshPro.Editor.dll: emitting IL to : C:\Users\kg15nd\AdvProgTech\Temp\Unity.TextMeshPro.Editor.dll
+ (0,0): [09/20/2018 08:03:45.563 PM] Unity.TextMeshPro.Editor.dll compilation finished in 280ms  source files re-parsed: 39 metadata reloaded: 1
+ (0,0): [09/20/2018 08:03:45.859 PM] Assembly-CSharp.dll: no prior compilation found in cache
+ (0,0): [09/20/2018 08:03:45.870 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/20/2018 08:03:45.893 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\kg15nd\AdvProgTech\Temp\Assembly-CSharp.dll
+ (0,0): [09/20/2018 08:03:45.917 PM] Assembly-CSharp.dll compilation finished in 47ms  source files re-parsed: 4 metadata reloaded: 4
+ (0,0): [09/20/2018 08:08:09.377 PM] Compiler cache size is now 17.49 MB
