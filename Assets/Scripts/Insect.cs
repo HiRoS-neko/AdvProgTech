@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Xml.Linq;
 using UnityEngine;
 using UnityEngine.Experimental.PlayerLoop;
 using UnityEngine.Networking;
@@ -10,7 +11,7 @@ public class Insect : MonoBehaviour
     [SerializeField] private Rigidbody _rgd;
     [SerializeField, Range(0, 5)] private float _speed;
 
-    [SerializeField, Range(0, 10)] private float _maxVelocity;
+    [SerializeField] private GameObject _insectBody;
 
     // Use this for initialization
     void Start()
@@ -18,12 +19,12 @@ public class Insect : MonoBehaviour
         if (_rgd == null) _rgd = GetComponent<Rigidbody>();
     }
 
-    public void Move(Vector3 dir, float rot)
+    public void Move(Vector3 dir)
     {
+        if (dir.magnitude >= 0.02f)
+            _insectBody.transform.rotation = Quaternion.Slerp(_insectBody.transform.rotation, Quaternion.LookRotation(dir), 0.6f);
+        _rgd.MovePosition(transform.position + dir * _speed);
         //Add force to insect
-        _rgd.AddForce(dir * _speed, ForceMode.VelocityChange);
-        //Ensure velocity isn't greater than max velocity
-        transform.Rotate(transform.up, rot);
     }
 
     public void Jump(float force)

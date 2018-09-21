@@ -1,60 +1,259 @@
  (0,0): Unity incremental compiler server
- (0,0): watchdog active on pid: 5492
- (0,0): [09/20/2018 08:03:13.750 PM] Unity.Postprocessing.Runtime.dll: no prior compilation found in cache
- (0,0): [09/20/2018 08:03:13.766 PM] Unity.Postprocessing.Runtime.dll compiling...
- (0,0): [09/20/2018 08:03:13.778 PM] Unity.TextMeshPro.dll: no prior compilation found in cache
- (0,0): [09/20/2018 08:03:13.790 PM] Unity.TextMeshPro.dll compiling...
- (0,0): [09/20/2018 08:03:13.796 PM] Unity.PackageManagerUI.Editor.dll: no prior compilation found in cache
- (0,0): [09/20/2018 08:03:13.808 PM] Unity.PackageManagerUI.Editor.dll compiling...
- (0,0): [09/20/2018 08:03:13.987 PM] UnityEditor.StandardEvents.dll: no prior compilation found in cache
- (0,0): [09/20/2018 08:03:13.999 PM] UnityEditor.StandardEvents.dll compiling...
- (0,0): [09/20/2018 08:03:16.541 PM] Unity.PackageManagerUI.Editor.dll: emitting IL to : C:\Users\kg15nd\AdvProgTech\Temp\Unity.PackageManagerUI.Editor.dll
- (0,0): [09/20/2018 08:03:16.541 PM] UnityEditor.StandardEvents.dll: emitting IL to : C:\Users\kg15nd\AdvProgTech\Temp\UnityEditor.StandardEvents.dll
- (0,0): [09/20/2018 08:03:16.541 PM] Unity.TextMeshPro.dll: emitting IL to : C:\Users\kg15nd\AdvProgTech\Temp\Unity.TextMeshPro.dll
- (0,0): [09/20/2018 08:03:16.541 PM] Unity.Postprocessing.Runtime.dll: emitting IL to : C:\Users\kg15nd\AdvProgTech\Temp\Unity.Postprocessing.Runtime.dll
- (0,0): [09/20/2018 08:03:16.615 PM] UnityEditor.StandardEvents.dll compilation finished in 2616ms  source files re-parsed: 1 metadata reloaded: 104
- (0,0): [09/20/2018 08:03:16.615 PM] Unity.PackageManagerUI.Editor.dll compilation finished in 2808ms  source files re-parsed: 44 metadata reloaded: 137
- (0,0): [09/20/2018 08:03:16.635 PM] Unity.TextMeshPro.dll compilation finished in 2845ms  source files re-parsed: 45 metadata reloaded: 208
- (0,0): [09/20/2018 08:03:16.664 PM] Unity.Postprocessing.Runtime.dll compilation finished in 2897ms  source files re-parsed: 56 metadata reloaded: 202
- (0,0): [09/20/2018 08:03:17.035 PM] Unity.TextMeshPro.Editor.dll: no prior compilation found in cache
- (0,0): [09/20/2018 08:03:17.047 PM] Unity.TextMeshPro.Editor.dll compiling...
- (0,0): [09/20/2018 08:03:17.190 PM] Unity.Postprocessing.Editor.dll: no prior compilation found in cache
- (0,0): [09/20/2018 08:03:17.204 PM] Unity.Postprocessing.Editor.dll compiling...
- (0,0): [09/20/2018 08:03:17.297 PM] Unity.TextMeshPro.Editor.dll: emitting IL to : C:\Users\kg15nd\AdvProgTech\Temp\Unity.TextMeshPro.Editor.dll
- (0,0): [09/20/2018 08:03:17.332 PM] Unity.Postprocessing.Editor.dll: emitting IL to : C:\Users\kg15nd\AdvProgTech\Temp\Unity.Postprocessing.Editor.dll
- (0,0): [09/20/2018 08:03:17.408 PM] Unity.Postprocessing.Editor.dll compilation finished in 203ms  source files re-parsed: 35 metadata reloaded: 1
- (0,0): [09/20/2018 08:03:17.426 PM] Unity.TextMeshPro.Editor.dll compilation finished in 379ms  source files re-parsed: 39 metadata reloaded: 1
- (0,0): [09/20/2018 08:03:19.278 PM] Assembly-CSharp.dll: no prior compilation found in cache
- (0,0): [09/20/2018 08:03:19.290 PM] Assembly-CSharp.dll compiling...
- (0,0): [09/20/2018 08:03:19.313 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\kg15nd\AdvProgTech\Temp\Assembly-CSharp.dll
- (0,0): [09/20/2018 08:03:19.339 PM] Assembly-CSharp.dll compilation finished in 49ms  source files re-parsed: 4 metadata reloaded: 4
- (0,0): [09/20/2018 08:03:44.282 PM] Unity.Postprocessing.Runtime.dll: no prior compilation found in cache
- (0,0): [09/20/2018 08:03:44.294 PM] Unity.Postprocessing.Runtime.dll compiling...
- (0,0): [09/20/2018 08:03:44.419 PM] Unity.TextMeshPro.dll: no prior compilation found in cache
- (0,0): [09/20/2018 08:03:44.430 PM] Unity.TextMeshPro.dll compiling...
- (0,0): [09/20/2018 08:03:44.437 PM] Unity.Postprocessing.Runtime.dll: emitting IL to : C:\Users\kg15nd\AdvProgTech\Temp\Unity.Postprocessing.Runtime.dll
- (0,0): [09/20/2018 08:03:44.482 PM] Unity.PackageManagerUI.Editor.dll: no prior compilation found in cache
- (0,0): [09/20/2018 08:03:44.494 PM] Unity.PackageManagerUI.Editor.dll compiling...
- (0,0): [09/20/2018 08:03:44.550 PM] Unity.Postprocessing.Runtime.dll compilation finished in 256ms  source files re-parsed: 56 metadata reloaded: 0
- (0,0): [09/20/2018 08:03:44.639 PM] UnityEditor.StandardEvents.dll: no prior compilation found in cache
- (0,0): [09/20/2018 08:03:44.699 PM] UnityEditor.StandardEvents.dll compiling...
- (0,0): [09/20/2018 08:03:44.756 PM] UnityEditor.StandardEvents.dll: emitting IL to : C:\Users\kg15nd\AdvProgTech\Temp\UnityEditor.StandardEvents.dll
- (0,0): [09/20/2018 08:03:44.757 PM] Unity.PackageManagerUI.Editor.dll: emitting IL to : C:\Users\kg15nd\AdvProgTech\Temp\Unity.PackageManagerUI.Editor.dll
- (0,0): [09/20/2018 08:03:44.801 PM] UnityEditor.StandardEvents.dll compilation finished in 102ms  source files re-parsed: 1 metadata reloaded: 0
- (0,0): [09/20/2018 08:03:44.827 PM] Unity.PackageManagerUI.Editor.dll compilation finished in 333ms  source files re-parsed: 44 metadata reloaded: 0
- (0,0): [09/20/2018 08:03:44.926 PM] Unity.Postprocessing.Editor.dll: no prior compilation found in cache
- (0,0): [09/20/2018 08:03:44.933 PM] Unity.TextMeshPro.dll: emitting IL to : C:\Users\kg15nd\AdvProgTech\Temp\Unity.TextMeshPro.dll
- (0,0): [09/20/2018 08:03:44.938 PM] Unity.Postprocessing.Editor.dll compiling...
- (0,0): [09/20/2018 08:03:45.029 PM] Unity.Postprocessing.Editor.dll: emitting IL to : C:\Users\kg15nd\AdvProgTech\Temp\Unity.Postprocessing.Editor.dll
- (0,0): [09/20/2018 08:03:45.048 PM] Unity.TextMeshPro.dll compilation finished in 617ms  source files re-parsed: 45 metadata reloaded: 0
- (0,0): [09/20/2018 08:03:45.108 PM] Unity.Postprocessing.Editor.dll compilation finished in 170ms  source files re-parsed: 35 metadata reloaded: 1
- (0,0): [09/20/2018 08:03:45.270 PM] Unity.TextMeshPro.Editor.dll: no prior compilation found in cache
- (0,0): [09/20/2018 08:03:45.282 PM] Unity.TextMeshPro.Editor.dll compiling...
- (0,0): [09/20/2018 08:03:45.431 PM] Unity.TextMeshPro.Editor.dll: emitting IL to : C:\Users\kg15nd\AdvProgTech\Temp\Unity.TextMeshPro.Editor.dll
- (0,0): [09/20/2018 08:03:45.563 PM] Unity.TextMeshPro.Editor.dll compilation finished in 280ms  source files re-parsed: 39 metadata reloaded: 1
- (0,0): [09/20/2018 08:03:45.859 PM] Assembly-CSharp.dll: no prior compilation found in cache
- (0,0): [09/20/2018 08:03:45.870 PM] Assembly-CSharp.dll compiling...
- (0,0): [09/20/2018 08:03:45.893 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\kg15nd\AdvProgTech\Temp\Assembly-CSharp.dll
- (0,0): [09/20/2018 08:03:45.917 PM] Assembly-CSharp.dll compilation finished in 47ms  source files re-parsed: 4 metadata reloaded: 4
- (0,0): [09/20/2018 08:08:09.377 PM] Compiler cache size is now 17.49 MB
- (0,0): watchdog triggered an exit
+ (0,0): watchdog active on pid: 15808
+ (0,0): [09/21/2018 06:33:32.632 PM] Unity.Postprocessing.Runtime.dll: no prior compilation found in cache
+ (0,0): [09/21/2018 06:33:32.649 PM] Unity.Postprocessing.Runtime.dll compiling...
+ (0,0): [09/21/2018 06:33:32.668 PM] Unity.PackageManagerUI.Editor.dll: no prior compilation found in cache
+ (0,0): [09/21/2018 06:33:32.680 PM] Unity.PackageManagerUI.Editor.dll compiling...
+ (0,0): [09/21/2018 06:33:32.894 PM] Unity.TextMeshPro.dll: no prior compilation found in cache
+ (0,0): [09/21/2018 06:33:32.894 PM] UnityEditor.StandardEvents.dll: no prior compilation found in cache
+ (0,0): [09/21/2018 06:33:32.929 PM] Unity.TextMeshPro.dll compiling...
+ (0,0): [09/21/2018 06:33:32.940 PM] UnityEditor.StandardEvents.dll compiling...
+ (0,0): [09/21/2018 06:33:34.654 PM] UnityEditor.StandardEvents.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\UnityEditor.StandardEvents.dll
+ (0,0): [09/21/2018 06:33:34.655 PM] Unity.PackageManagerUI.Editor.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Unity.PackageManagerUI.Editor.dll
+ (0,0): [09/21/2018 06:33:34.655 PM] Unity.TextMeshPro.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Unity.TextMeshPro.dll
+ (0,0): [09/21/2018 06:33:34.655 PM] Unity.Postprocessing.Runtime.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Unity.Postprocessing.Runtime.dll
+ (0,0): [09/21/2018 06:33:34.758 PM] UnityEditor.StandardEvents.dll compilation finished in 1818ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:33:34.759 PM] Unity.PackageManagerUI.Editor.dll compilation finished in 2079ms  source files re-parsed: 44 metadata reloaded: 184
+ (0,0): [09/21/2018 06:33:34.759 PM] Unity.TextMeshPro.dll compilation finished in 1829ms  source files re-parsed: 45 metadata reloaded: 0
+ (0,0): [09/21/2018 06:33:34.761 PM] Unity.Postprocessing.Runtime.dll compilation finished in 2111ms  source files re-parsed: 56 metadata reloaded: 167
+ (0,0): [09/21/2018 06:33:35.336 PM] Unity.Postprocessing.Editor.dll: no prior compilation found in cache
+ (0,0): [09/21/2018 06:33:35.348 PM] Unity.Postprocessing.Editor.dll compiling...
+ (0,0): [09/21/2018 06:33:35.485 PM] Unity.TextMeshPro.Editor.dll: no prior compilation found in cache
+ (0,0): [09/21/2018 06:33:35.497 PM] Unity.TextMeshPro.Editor.dll compiling...
+ (0,0): [09/21/2018 06:33:35.520 PM] Unity.Postprocessing.Editor.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Unity.Postprocessing.Editor.dll
+ (0,0): [09/21/2018 06:33:35.579 PM] Unity.Postprocessing.Editor.dll compilation finished in 231ms  source files re-parsed: 35 metadata reloaded: 1
+ (0,0): [09/21/2018 06:33:35.741 PM] Unity.TextMeshPro.Editor.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Unity.TextMeshPro.Editor.dll
+ (0,0): [09/21/2018 06:33:35.817 PM] Unity.TextMeshPro.Editor.dll compilation finished in 320ms  source files re-parsed: 39 metadata reloaded: 1
+ (0,0): [09/21/2018 06:33:36.205 PM] Assembly-CSharp.dll: no prior compilation found in cache
+ (0,0): [09/21/2018 06:33:36.216 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:33:36.314 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:33:36.351 PM] Assembly-CSharp.dll compilation finished in 134ms  source files re-parsed: 5 metadata reloaded: 4
+ (0,0): [09/21/2018 06:34:56.348 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:34:56.390 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:34:56.425 PM] Assembly-CSharp.dll compilation finished in 77ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:34:56.437 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:35:29.738 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:35:29.783 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:35:29.800 PM] Assembly-CSharp.dll compilation finished in 61ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:35:29.811 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:35:38.795 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:35:38.837 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:35:38.849 PM] Assembly-CSharp.dll compilation finished in 53ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:35:38.861 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:35:53.922 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:35:53.957 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:35:53.969 PM] Assembly-CSharp.dll compilation finished in 46ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:35:53.981 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:35:58.106 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:35:58.143 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:35:58.156 PM] Assembly-CSharp.dll compilation finished in 50ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:35:58.168 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:36:16.875 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:36:16.907 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:36:16.947 PM] Assembly-CSharp.dll compilation finished in 72ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:36:16.959 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:36:59.412 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:36:59.439 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:36:59.476 PM] Assembly-CSharp.dll compilation finished in 63ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:36:59.487 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:37:05.699 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:37:05.732 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:37:05.768 PM] Assembly-CSharp.dll compilation finished in 69ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:37:05.780 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:38:15.036 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:38:15.098 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:38:15.134 PM] Assembly-CSharp.dll compilation finished in 97ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:38:15.146 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:38:30.263 PM] Compiler cache size is now 15.36 MB
+ (0,0): [09/21/2018 06:42:28.836 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:42:28.874 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:42:28.885 PM] Assembly-CSharp.dll compilation finished in 49ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:42:28.897 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:42:32.337 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:42:32.367 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:42:32.402 PM] Assembly-CSharp.dll compilation finished in 64ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:42:32.414 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:43:25.224 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:43:25.259 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:43:25.271 PM] Assembly-CSharp.dll compilation finished in 47ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:43:25.282 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:43:26.127 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:43:26.153 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:43:26.165 PM] Assembly-CSharp.dll compilation finished in 38ms  source files re-parsed: 0 metadata reloaded: 0
+ (0,0): [09/21/2018 06:43:26.177 PM] Assembly-CSharp.dll: compilation was cached, 0 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:43:31.105 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:43:31.133 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:43:31.171 PM] Assembly-CSharp.dll compilation finished in 65ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:43:31.182 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:44:47.188 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:44:47.221 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:44:47.259 PM] Assembly-CSharp.dll compilation finished in 70ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:44:47.271 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:45:50.241 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:45:50.267 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:45:50.303 PM] Assembly-CSharp.dll compilation finished in 62ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:45:50.315 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:46:02.249 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:46:02.280 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:46:02.317 PM] Assembly-CSharp.dll compilation finished in 68ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:46:02.329 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:46:03.794 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:46:03.823 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:46:03.857 PM] Assembly-CSharp.dll compilation finished in 63ms  source files re-parsed: 0 metadata reloaded: 0
+ (0,0): [09/21/2018 06:46:03.869 PM] Assembly-CSharp.dll: compilation was cached, 0 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:46:50.142 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:46:50.174 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:46:50.210 PM] Assembly-CSharp.dll compilation finished in 67ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:46:50.222 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:46:53.612 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:46:53.641 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:46:53.676 PM] Assembly-CSharp.dll compilation finished in 63ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:46:53.687 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:47:43.830 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:47:43.859 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:47:43.900 PM] Assembly-CSharp.dll compilation finished in 69ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:47:43.912 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:48:40.691 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:48:40.722 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:48:40.758 PM] Assembly-CSharp.dll compilation finished in 66ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:48:40.769 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:51:57.750 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:51:57.780 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:51:57.793 PM] Assembly-CSharp.dll compilation finished in 43ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:51:57.809 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:52:01.858 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:52:01.890 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:52:01.931 PM] Assembly-CSharp.dll compilation finished in 72ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:52:01.942 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:52:16.719 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:52:16.746 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:52:16.781 PM] Assembly-CSharp.dll compilation finished in 62ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:52:16.794 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:52:25.493 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:52:25.521 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:52:25.556 PM] Assembly-CSharp.dll compilation finished in 62ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:52:25.568 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:52:51.215 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:52:51.241 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:52:51.275 PM] Assembly-CSharp.dll compilation finished in 60ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:52:51.287 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:53:02.970 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:53:02.998 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:53:03.038 PM] Assembly-CSharp.dll compilation finished in 68ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:53:03.050 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:53:06.857 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:53:06.885 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:53:06.924 PM] Assembly-CSharp.dll compilation finished in 67ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:53:06.936 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:53:13.226 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:53:13.256 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:53:13.269 PM] Assembly-CSharp.dll compilation finished in 42ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:53:13.281 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:53:16.132 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:53:16.161 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:53:16.173 PM] Assembly-CSharp.dll compilation finished in 40ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:53:16.184 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:53:41.698 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:53:41.726 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:53:41.738 PM] Assembly-CSharp.dll compilation finished in 40ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:53:41.750 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:53:44.090 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:53:44.123 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:53:44.164 PM] Assembly-CSharp.dll compilation finished in 74ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:53:44.176 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:57:07.073 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:57:07.100 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:57:07.136 PM] Assembly-CSharp.dll compilation finished in 63ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:57:07.148 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:57:45.767 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:57:45.801 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:57:45.836 PM] Assembly-CSharp.dll compilation finished in 69ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:57:45.848 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:58:07.112 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:58:07.141 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:58:07.178 PM] Assembly-CSharp.dll compilation finished in 65ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:58:07.190 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:59:04.347 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:59:04.374 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:59:04.408 PM] Assembly-CSharp.dll compilation finished in 61ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:59:04.420 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 06:59:48.650 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 06:59:48.680 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 06:59:48.715 PM] Assembly-CSharp.dll compilation finished in 65ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 06:59:48.727 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 07:00:35.832 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 07:00:35.859 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 07:00:35.871 PM] Assembly-CSharp.dll compilation finished in 38ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 07:00:35.883 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 07:00:59.474 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 07:00:59.505 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 07:00:59.547 PM] Assembly-CSharp.dll compilation finished in 73ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 07:00:59.559 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 07:01:14.051 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 07:01:14.078 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 07:01:14.112 PM] Assembly-CSharp.dll compilation finished in 60ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 07:01:14.125 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 07:02:02.907 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 07:02:02.936 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 07:02:02.971 PM] Assembly-CSharp.dll compilation finished in 63ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 07:02:02.982 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 07:02:03.973 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 07:02:04.005 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 07:02:04.040 PM] Assembly-CSharp.dll compilation finished in 67ms  source files re-parsed: 0 metadata reloaded: 0
+ (0,0): [09/21/2018 07:02:04.052 PM] Assembly-CSharp.dll: compilation was cached, 0 file(s) were found to have changed.
+ (0,0): [09/21/2018 07:02:08.280 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 07:02:08.312 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 07:02:08.352 PM] Assembly-CSharp.dll compilation finished in 72ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 07:02:08.364 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 07:04:15.279 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 07:04:15.305 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 07:04:15.340 PM] Assembly-CSharp.dll compilation finished in 61ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 07:04:15.352 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 07:04:43.424 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 07:04:43.450 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 07:04:43.486 PM] Assembly-CSharp.dll compilation finished in 62ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 07:04:43.498 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 07:06:59.495 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 07:06:59.523 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 07:06:59.561 PM] Assembly-CSharp.dll compilation finished in 66ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 07:06:59.573 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 07:07:04.651 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 07:07:04.680 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 07:07:04.715 PM] Assembly-CSharp.dll compilation finished in 63ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 07:07:04.727 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 07:07:34.329 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 07:07:34.356 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 07:07:34.391 PM] Assembly-CSharp.dll compilation finished in 62ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 07:07:34.403 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 07:07:44.357 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 07:07:44.387 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 07:07:44.421 PM] Assembly-CSharp.dll compilation finished in 64ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 07:07:44.433 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 07:08:08.775 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 07:08:08.801 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 07:08:08.836 PM] Assembly-CSharp.dll compilation finished in 61ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 07:08:08.847 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 07:08:22.473 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 07:08:22.503 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 07:08:22.539 PM] Assembly-CSharp.dll compilation finished in 65ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 07:08:22.550 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 07:13:47.073 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 07:13:47.101 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 07:13:47.156 PM] Assembly-CSharp.dll compilation finished in 83ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 07:13:47.168 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 07:14:16.999 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 07:14:17.027 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 07:14:17.061 PM] Assembly-CSharp.dll compilation finished in 61ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 07:14:17.073 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 07:14:26.801 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 07:14:26.828 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 07:14:26.869 PM] Assembly-CSharp.dll compilation finished in 67ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 07:14:26.882 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
+ (0,0): [09/21/2018 07:14:28.092 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 07:14:28.121 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 07:14:28.155 PM] Assembly-CSharp.dll compilation finished in 63ms  source files re-parsed: 0 metadata reloaded: 0
+ (0,0): [09/21/2018 07:14:28.167 PM] Assembly-CSharp.dll: compilation was cached, 0 file(s) were found to have changed.
+ (0,0): [09/21/2018 07:15:21.632 PM] Assembly-CSharp.dll compiling...
+ (0,0): [09/21/2018 07:15:21.660 PM] Assembly-CSharp.dll: emitting IL to : C:\Users\Administrator\Documents\AdvGameProg\Temp\Assembly-CSharp.dll
+ (0,0): [09/21/2018 07:15:21.698 PM] Assembly-CSharp.dll compilation finished in 65ms  source files re-parsed: 1 metadata reloaded: 0
+ (0,0): [09/21/2018 07:15:21.709 PM] Assembly-CSharp.dll: compilation was cached, 1 file(s) were found to have changed.
