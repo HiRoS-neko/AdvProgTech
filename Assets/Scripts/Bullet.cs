@@ -1,3 +1,4 @@
+using System.Collections.Specialized;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
@@ -27,17 +28,20 @@ public class Bullet : MonoBehaviour
     /// <param name="speed">Speed at which to be fired at</param>
     public void Fire(BulletType bulletType, Vector3 position, Vector3 direction, float speed)
     {
-        gameObject.SetActive(true);
-        
+        _rgd.transform.parent = null;
+
         if (bulletType == BulletType.WebBullet)
             _mesh.mesh = _bullet;
         else
             _mesh.mesh = _web;
 
         _rgd.isKinematic = false;
-        _rgd.position = position;
-        _rgd.transform.LookAt(direction+_rgd.position);
-        _rgd.velocity = speed * transform.forward;
+        transform.position = position;
+        transform.rotation = Quaternion.LookRotation(direction);
+        transform.Rotate(Vector3.up, -90);
+        _rgd.velocity = speed * transform.right;
+
+        gameObject.SetActive(true);
     }
 
     private void OnCollisionEnter(Collision other)
@@ -57,7 +61,7 @@ public class Bullet : MonoBehaviour
                     other.rigidbody.isKinematic = true;
                     _rgd.velocity = _rgd.transform.forward * speed;
                 }
-                    
+
 
                 if (other.gameObject.CompareTag("wall") || other.gameObject.CompareTag("floor"))
                 {

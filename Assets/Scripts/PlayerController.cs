@@ -21,16 +21,8 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetButtonDown("Fire1"))
         {
-            RaycastHit ray;
-            if (Physics.Raycast(_playerObj.transform.position, _playerObj.transform.forward, out ray))
-            {
-                _playerObj.Attack(ray.point, Bullet.BulletType.WebBullet);
-            }
-            else
-            {
-                _playerObj.Attack(_playerObj.transform.position + _playerObj.transform.forward * 50,
-                    Bullet.BulletType.WebBullet);
-            }
+            _playerObj.Attack(_playerObj.transform.position + _playerObj.transform.forward * 50,
+                Bullet.BulletType.WebBullet);
         }
     }
 

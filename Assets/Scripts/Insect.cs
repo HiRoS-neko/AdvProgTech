@@ -9,7 +9,7 @@ public class Insect : MonoBehaviour
     [SerializeField] private GameObject _insectBody;
 
     [SerializeField] private BulletPool _bulletPool;
-    
+
     // Use this for initialization
     void Start()
     {
@@ -19,7 +19,8 @@ public class Insect : MonoBehaviour
     public void Move(Vector3 dir)
     {
         if (dir.magnitude >= 0.02f)
-            _insectBody.transform.rotation = Quaternion.Slerp(_insectBody.transform.rotation, Quaternion.LookRotation(dir), 0.6f);
+            _insectBody.transform.rotation =
+                Quaternion.Slerp(_insectBody.transform.rotation, Quaternion.LookRotation(dir), 0.6f);
         _rgd.MovePosition(transform.position + dir * _speed);
         //Add force to insect
     }
@@ -31,7 +32,6 @@ public class Insect : MonoBehaviour
 
     public void Attack(Vector3 point, Bullet.BulletType bulletType)
     {
-        Vector3 direction = (point - transform.position).normalized;
-        _bulletPool.FireBullet(transform.position, direction, _fireSpeed, bulletType);
+        _bulletPool.FireBullet(_insectBody.transform.position, _insectBody.transform.forward, _fireSpeed, bulletType);
     }
 }
