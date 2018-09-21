@@ -36,7 +36,7 @@ public class Bullet : MonoBehaviour
 
         _rgd.isKinematic = false;
         _rgd.position = position;
-        _rgd.rotation.SetLookRotation(direction);
+        _rgd.transform.LookAt(direction+_rgd.position);
         _rgd.velocity = speed * transform.forward;
     }
 

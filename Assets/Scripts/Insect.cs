@@ -1,18 +1,15 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Xml.Linq;
-using UnityEngine;
-using UnityEngine.Experimental.PlayerLoop;
-using UnityEngine.Networking;
+﻿using UnityEngine;
 
 public class Insect : MonoBehaviour
 {
     [SerializeField] private Rigidbody _rgd;
     [SerializeField, Range(0, 5)] private float _speed;
+    [SerializeField, Range(0, 5)] private float _fireSpeed;
 
     [SerializeField] private GameObject _insectBody;
 
+    [SerializeField] private BulletPool _bulletPool;
+    
     // Use this for initialization
     void Start()
     {
@@ -34,6 +31,7 @@ public class Insect : MonoBehaviour
 
     public void Attack(Vector3 point, Bullet.BulletType bulletType)
     {
-        //todo fire bulletType at point
+        Vector3 direction = (point - transform.position).normalized;
+        _bulletPool.FireBullet(transform.position, direction, _fireSpeed, bulletType);
     }
 }

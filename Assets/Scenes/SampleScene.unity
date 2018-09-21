@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.17790549, g: 0.22274382, b: 0.30487818, a: 1}
+  m_IndirectSpecularColor: {r: 0.17790522, g: 0.22274336, b: 0.30487755, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -586,6 +586,10 @@ Prefab:
     - target: {fileID: 4685533756684496, guid: ea70dde07ddfe9246a302fc8d29cd2a4, type: 2}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1457141354297834, guid: ea70dde07ddfe9246a302fc8d29cd2a4, type: 2}
+      propertyPath: m_TagString
+      value: enemy
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea70dde07ddfe9246a302fc8d29cd2a4, type: 2}
@@ -4467,7 +4471,7 @@ GameObject:
   - component: {fileID: 645073822}
   m_Layer: 0
   m_Name: Floor
-  m_TagString: Untagged
+  m_TagString: floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -7614,7 +7618,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba36fac722144238f260cb2741d5d5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bullet: {fileID: 114530354046745982, guid: 0cbf1cc8de61cea4d8c861fdbc53167a, type: 2}
+  _bullet: {fileID: 114985039141407620, guid: 181587b1956393e4b82d903652b18838, type: 2}
 --- !u!1001 &1237980533
 Prefab:
   m_ObjectHideFlags: 0
@@ -9019,7 +9023,7 @@ GameObject:
   - component: {fileID: 1530993993}
   m_Layer: 0
   m_Name: Wall
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -12465,7 +12469,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rgd: {fileID: 1989577095}
   _speed: 0.02
+  _fireSpeed: 1
   _insectBody: {fileID: 914518774}
+  _bulletPool: {fileID: 1230770557}
 --- !u!54 &1989577095
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -13435,7 +13441,7 @@ GameObject:
   - component: {fileID: 2143551240}
   m_Layer: 0
   m_Name: Wall
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

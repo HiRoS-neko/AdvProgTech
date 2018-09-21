@@ -20,9 +20,9 @@ public class BulletPool : MonoBehaviour
         }
     }
 
-    public void FireBullet(Vector3 position, Vector3 direction, float speed)
+    public void FireBullet(Vector3 position, Vector3 direction, float speed, Bullet.BulletType bulletType)
     {
-        _bulletArray[_index].Fire(Bullet.BulletType.WebBullet, position, direction, speed);
+        _bulletArray[_index].Fire(bulletType, position, direction, speed);
         _index++;
         if (_index >= _bulletArray.Length) _index = 0;
     }
