@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8b515547390e17244b2da2902f5e8cf7
+guid: 54d46a161fb59ee49a8c2e1319a5e8ec
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -11,12 +11,7 @@ ModelImporter:
     2300000: Planks3
     3300000: Planks3
     4300000: Planks3
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: palette
-    second: {fileID: 2100000, guid: 37c5bcaa9b437624ca498be6ca1e3dca, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0

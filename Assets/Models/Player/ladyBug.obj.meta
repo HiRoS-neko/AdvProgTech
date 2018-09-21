@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0470daf0f9520de46862d8e295336bac
+guid: fcbc4cff740973f4c8fad0fcef6996d8
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -11,12 +11,7 @@ ModelImporter:
     2300000: ladyBug
     3300000: ladyBug
     4300000: ladyBug
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: palette
-    second: {fileID: 2100000, guid: 3c216b9ea2ebda540a693d0572267654, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0

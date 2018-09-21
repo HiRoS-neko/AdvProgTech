@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bb361437230a3e749b876e2dafc3c26a
+guid: 7501f690290c54340af94dabea78f08a
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -11,12 +11,7 @@ ModelImporter:
     2300000: spider
     3300000: spider
     4300000: spider
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: palette
-    second: {fileID: 2100000, guid: be2f308bcf2d69341b6cc220b32b849d, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0

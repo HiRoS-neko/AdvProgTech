@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 59857cd0a9d21d44a9d1d17f942333d6
+guid: 67045a3bb8bbb6246879470ab789d1f0
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -11,12 +11,7 @@ ModelImporter:
     2300000: BrickWall
     3300000: BrickWall
     4300000: BrickWall
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: palette
-    second: {fileID: 2100000, guid: a9e72f5c018394446b314308b12919b7, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
