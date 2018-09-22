@@ -1,28 +1,17 @@
 fileFormatVersion: 2
-guid: 1b5ab698aa8b70e42918f0a129db9a15
+guid: 7ae02f79edce7824394e4b7cb5b49f4e
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Web2
+    100000: PavingStone
     100002: //RootNode
-    100004: default
-    400000: Web2
+    400000: PavingStone
     400002: //RootNode
-    400004: default
     2100000: palette
-    2100002: palette.001
-    2300000: Web2
-    2300002: default
-    3300000: Web2
-    3300002: default
-    4300000: Web2
-    4300002: default
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: palette.001
-    second: {fileID: 2100002, guid: 1b5ab698aa8b70e42918f0a129db9a15, type: 3}
+    2300000: PavingStone
+    3300000: PavingStone
+    4300000: PavingStone
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0

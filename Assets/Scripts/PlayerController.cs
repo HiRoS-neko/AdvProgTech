@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
 
     private Vector3 _dir;
 
+    private bool _secondary = false;
+
     private float _rot;
 
     // Update is called once per frame
@@ -24,10 +26,21 @@ public class PlayerController : MonoBehaviour
             _playerObj.Attack(_playerObj.transform.position + _playerObj.transform.forward * 50,
                 Bullet.BulletType.WebBullet);
         }
+
+        if (_secondary && Input.GetButtonDown("Fire2"))
+        {
+            _playerObj.Attack(_playerObj.transform.position + _playerObj.transform.forward * 50,
+                Bullet.BulletType.WebGrab);
+        }
     }
 
     private void FixedUpdate()
     {
         _playerObj.Move(_dir);
+    }
+
+    public void EnableSecondary()
+    {
+        _secondary = true;
     }
 }

@@ -7,6 +7,7 @@ public class Insect : MonoBehaviour
     [SerializeField, Range(0, 5)] private float _fireSpeed;
 
     [SerializeField] private GameObject _insectBody;
+    [SerializeField] private GameObject _shootLocation;
 
     [SerializeField] private BulletPool _bulletPool;
 
@@ -32,6 +33,6 @@ public class Insect : MonoBehaviour
 
     public void Attack(Vector3 point, Bullet.BulletType bulletType)
     {
-        _bulletPool.FireBullet(_insectBody.transform.position, _insectBody.transform.forward, _fireSpeed, bulletType);
+        _bulletPool.FireBullet(_shootLocation.transform.position, _insectBody.transform.forward, _fireSpeed, bulletType);
     }
 }

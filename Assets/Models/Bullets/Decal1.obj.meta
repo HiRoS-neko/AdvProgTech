@@ -5,12 +5,17 @@ ModelImporter:
   fileIDToRecycleName:
     100000: Decal1
     100002: //RootNode
+    100004: default
     400000: Decal1
     400002: //RootNode
+    400004: default
     2100000: palette
     2300000: Decal1
+    2300002: default
     3300000: Decal1
+    3300002: default
     4300000: Decal1
+    4300002: default
   externalObjects: {}
   materials:
     importMaterials: 1

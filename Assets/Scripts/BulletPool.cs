@@ -6,11 +6,13 @@ public class BulletPool : MonoBehaviour
 
     private Bullet[] _bulletArray;
 
+    [SerializeField] private int _numOfBullets;
+    
     private int _index = 0;
 
     private void Start()
     {
-        _bulletArray = new Bullet[10];
+        _bulletArray = new Bullet[_numOfBullets];
 
         for (int i = 0; i < _bulletArray.Length; i++)
         {

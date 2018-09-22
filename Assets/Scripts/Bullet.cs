@@ -17,7 +17,7 @@ public class Bullet : MonoBehaviour
 
     [SerializeField] private BulletType _bulletType;
 
-    private float speed;
+    private float _speed;
 
     /// <summary>
     /// Fires the gameobject towards @direction from @position at @speed
@@ -28,7 +28,20 @@ public class Bullet : MonoBehaviour
     /// <param name="speed">Speed at which to be fired at</param>
     public void Fire(BulletType bulletType, Vector3 position, Vector3 direction, float speed)
     {
+        _bulletType = bulletType;
+
+        for (int i = 0; i < transform.childCount; i++)
+        {
+            var temp = transform.GetChild(0);
+            temp.GetComponent<Collider>().enabled = true;
+        }
+
+
+        transform.DetachChildren();
+
         _rgd.transform.parent = null;
+
+        _speed = speed;
 
         if (bulletType == BulletType.WebBullet)
             _mesh.mesh = _bullet;
@@ -38,8 +51,7 @@ public class Bullet : MonoBehaviour
         _rgd.isKinematic = false;
         transform.position = position;
         transform.rotation = Quaternion.LookRotation(direction);
-        transform.Rotate(Vector3.up, -90);
-        _rgd.velocity = speed * transform.right;
+        _rgd.velocity = speed * transform.forward;
 
         gameObject.SetActive(true);
     }
@@ -49,9 +61,14 @@ public class Bullet : MonoBehaviour
         switch (_bulletType)
         {
             case BulletType.WebBullet:
-                _rgd.isKinematic = true;
-                transform.parent = other.gameObject.transform;
-                _mesh.mesh = _decal;
+                if (other.gameObject.CompareTag("wall") || other.gameObject.CompareTag("floor") ||
+                    other.gameObject.CompareTag("enemy"))
+                {
+                    _rgd.isKinematic = true;
+                    transform.parent = other.gameObject.transform;
+                    _mesh.mesh = _decal;
+                }
+
                 break;
             case BulletType.WebGrab:
                 if (other.gameObject.CompareTag("enemy"))
@@ -59,7 +76,7 @@ public class Bullet : MonoBehaviour
                     other.collider.enabled = false;
                     other.transform.parent = this.transform;
                     other.rigidbody.isKinematic = true;
-                    _rgd.velocity = _rgd.transform.forward * speed;
+                    _rgd.velocity = _rgd.transform.forward * _speed;
                 }
 
 

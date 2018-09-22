@@ -1,28 +1,17 @@
 fileFormatVersion: 2
-guid: 1b5ab698aa8b70e42918f0a129db9a15
+guid: da9fb0a97be6d5644a32e0ef48c26190
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Web2
+    100000: Tiles
     100002: //RootNode
-    100004: default
-    400000: Web2
+    400000: Tiles
     400002: //RootNode
-    400004: default
     2100000: palette
-    2100002: palette.001
-    2300000: Web2
-    2300002: default
-    3300000: Web2
-    3300002: default
-    4300000: Web2
-    4300002: default
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: palette.001
-    second: {fileID: 2100002, guid: 1b5ab698aa8b70e42918f0a129db9a15, type: 3}
+    2300000: Tiles
+    3300000: Tiles
+    4300000: Tiles
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
@@ -53,7 +42,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 0.03125
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importVisibility: 1

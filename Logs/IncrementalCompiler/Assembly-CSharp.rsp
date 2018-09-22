@@ -294,6 +294,7 @@
 -d:ENABLE_BURST_AOT
 -d:UNITY_TEAM_LICENSE
 -d:UNITY_POST_PROCESSING_STACK_V2
+-i:"D:/source/Unity/Advanced Programming Techniques/AdvProgTech/Assets/Pickup.cs"
 -i:"D:/source/Unity/Advanced Programming Techniques/AdvProgTech/Assets/Scripts/Bullet.cs"
 -i:"D:/source/Unity/Advanced Programming Techniques/AdvProgTech/Assets/Scripts/BulletPool.cs"
 -i:"D:/source/Unity/Advanced Programming Techniques/AdvProgTech/Assets/Scripts/Insect.cs"

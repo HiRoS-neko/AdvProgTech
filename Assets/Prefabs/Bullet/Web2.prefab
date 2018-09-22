@@ -38,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1366229202591980}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.217, y: 0.33296347, z: 2.0255542}
+  m_LocalPosition: {x: 6.843632, y: 0.1225, z: 8.203606}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -85,7 +85,7 @@ MeshFilter:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1366229202591980}
-  m_Mesh: {fileID: 4300000, guid: 1b5ab698aa8b70e42918f0a129db9a15, type: 3}
+  m_Mesh: {fileID: 0}
 --- !u!54 &54793743948715304
 Rigidbody:
   m_ObjectHideFlags: 1
@@ -112,7 +112,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.125, y: 0.125, z: 0.125}
-  m_Center: {x: -0.125, y: 0.25, z: 0}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &114985039141407620
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -126,8 +126,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rgd: {fileID: 54793743948715304}
   _mesh: {fileID: 33077111475976786}
-  _bullet: {fileID: 4300000, guid: f136e08d7b0f4a7409e7cc29e7605158, type: 3}
-  _decal: {fileID: 4300000, guid: 1718e59c061ab414dbf13c938d9057cc, type: 3}
-  _web: {fileID: 4300000, guid: ff5f49a31b58d5941b5b34e30d607be8, type: 3}
-  _captured: {fileID: 4300000, guid: 1b5ab698aa8b70e42918f0a129db9a15, type: 3}
-  _bulletType: 1
+  _bullet: {fileID: 4300002, guid: f136e08d7b0f4a7409e7cc29e7605158, type: 3}
+  _decal: {fileID: 4300002, guid: 1718e59c061ab414dbf13c938d9057cc, type: 3}
+  _web: {fileID: 4300002, guid: ff5f49a31b58d5941b5b34e30d607be8, type: 3}
+  _captured: {fileID: 4300002, guid: 1b5ab698aa8b70e42918f0a129db9a15, type: 3}
+  _bulletType: 0
