@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _dir = (transform.forward * Input.GetAxis("Vertical") + transform.right * Input.GetAxis("Horizontal"))
+        _dir = (Vector3.forward * Input.GetAxis("Vertical") + Vector3.right * Input.GetAxis("Horizontal"))
             .normalized;
 
         if (Input.GetButtonDown("Jump")) _playerObj.Jump(5);

@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Analytics;
 
 public class Insect : MonoBehaviour
 {
@@ -28,7 +29,8 @@ public class Insect : MonoBehaviour
 
     public void Jump(float force)
     {
-        _rgd.AddForce(transform.up * force, ForceMode.Impulse);
+        if (Mathf.Abs(_rgd.velocity.y) < 0.1f)
+            _rgd.AddForce(transform.up * force, ForceMode.Impulse);
     }
 
     public void Attack(Vector3 point, Bullet.BulletType bulletType)
