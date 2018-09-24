@@ -6,15 +6,15 @@ public class BulletPool : MonoBehaviour
 
     private Bullet[] _bulletArray;
 
+    private int _index;
+
     [SerializeField] private int _numOfBullets;
-    
-    private int _index = 0;
 
     private void Start()
     {
         _bulletArray = new Bullet[_numOfBullets];
 
-        for (int i = 0; i < _bulletArray.Length; i++)
+        for (var i = 0; i < _bulletArray.Length; i++)
         {
             var temp = Instantiate(_bullet.gameObject);
             temp.SetActive(false);

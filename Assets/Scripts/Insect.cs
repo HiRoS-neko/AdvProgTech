@@ -1,19 +1,17 @@
 ﻿using UnityEngine;
-using UnityEngine.Analytics;
 
 public class Insect : MonoBehaviour
 {
-    [SerializeField] private Rigidbody _rgd;
-    [SerializeField, Range(0, 5)] private float _speed;
-    [SerializeField, Range(0, 5)] private float _fireSpeed;
+    [SerializeField] private BulletPool _bulletPool;
+    [SerializeField] [Range(0, 5)] private float _fireSpeed;
 
     [SerializeField] private GameObject _insectBody;
+    [SerializeField] private Rigidbody _rgd;
     [SerializeField] private GameObject _shootLocation;
-
-    [SerializeField] private BulletPool _bulletPool;
+    [SerializeField] [Range(0, 5)] private float _speed;
 
     // Use this for initialization
-    void Start()
+    private void Start()
     {
         if (_rgd == null) _rgd = GetComponent<Rigidbody>();
     }
@@ -35,6 +33,7 @@ public class Insect : MonoBehaviour
 
     public void Attack(Vector3 point, Bullet.BulletType bulletType)
     {
-        _bulletPool.FireBullet(_shootLocation.transform.position, _insectBody.transform.forward, _fireSpeed, bulletType);
+        _bulletPool.FireBullet(_shootLocation.transform.position, _insectBody.transform.forward, _fireSpeed,
+            bulletType);
     }
 }

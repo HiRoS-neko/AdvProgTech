@@ -1,18 +1,17 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
 public class Pickup : MonoBehaviour
 {
-    private float _floatRange = 0.125f;
-
-    private float _move = 0.002f;
+    private readonly float _floatRange = 0.125f;
 
     private Vector3 _initialPos;
 
+    private float _move = 0.002f;
+
     // Use this for initialization
-    void Start()
+    private void Start()
     {
         _initialPos = transform.position;
         StartCoroutine(Animate());

@@ -1,26 +1,24 @@
-using System.Collections.Specialized;
 using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    [SerializeField] private Rigidbody _rgd;
-
-    [SerializeField] private MeshFilter _mesh;
-
-    [SerializeField] private Mesh _bullet, _decal, _web, _captured;
-
     public enum BulletType
     {
         WebBullet,
         WebGrab
     }
 
+    [SerializeField] private Mesh _bullet, _decal, _web, _captured;
+
     [SerializeField] private BulletType _bulletType;
+
+    [SerializeField] private MeshFilter _mesh;
+    [SerializeField] private Rigidbody _rgd;
 
     private float _speed;
 
     /// <summary>
-    /// Fires the gameobject towards @direction from @position at @speed
+    ///     Fires the gameobject towards @direction from @position at @speed
     /// </summary>
     /// <param name="bulletType">Type of the bullet to be fired</param>
     /// <param name="position">Position of the fire point in world space</param>
@@ -30,7 +28,7 @@ public class Bullet : MonoBehaviour
     {
         _bulletType = bulletType;
 
-        for (int i = 0; i < transform.childCount; i++)
+        for (var i = 0; i < transform.childCount; i++)
         {
             var temp = transform.GetChild(0);
             temp.GetComponent<Collider>().enabled = true;
@@ -74,7 +72,7 @@ public class Bullet : MonoBehaviour
                 if (other.gameObject.CompareTag("enemy"))
                 {
                     other.collider.enabled = false;
-                    other.transform.parent = this.transform;
+                    other.transform.parent = transform;
                     other.rigidbody.isKinematic = true;
                     _rgd.velocity = _rgd.transform.forward * _speed;
                 }
