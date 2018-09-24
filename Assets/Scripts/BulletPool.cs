@@ -2,30 +2,50 @@ using UnityEngine;
 
 public class BulletPool : MonoBehaviour
 {
-    [SerializeField] private Bullet _bullet;
+    [SerializeField] private WebBullet _webBullet;
+    [SerializeField] private WebGrab _webGrab;
 
-    private Bullet[] _bulletArray;
+    private WebBullet[] _bulletArray;
+    private WebGrab[] _webBulletArray;
 
-    private int _index;
+    private int _bulletIndex;
+    private int _webIndex;
 
     [SerializeField] private int _numOfBullets;
 
     private void Start()
     {
-        _bulletArray = new Bullet[_numOfBullets];
+        _bulletArray = new WebBullet[_numOfBullets];
+        
+        _webBulletArray = new WebGrab[_numOfBullets];
 
         for (var i = 0; i < _bulletArray.Length; i++)
         {
-            var temp = Instantiate(_bullet.gameObject);
-            temp.SetActive(false);
-            _bulletArray[i] = temp.GetComponent<Bullet>();
+            var bullet = Instantiate(_webBullet.gameObject);
+            bullet.SetActive(false);
+            _bulletArray[i] = bullet.GetComponent<WebBullet>();
+            
+            var grab = Instantiate(_webGrab.gameObject);
+            grab.SetActive(false);
+            _webBulletArray[i] = grab.GetComponent<WebGrab>();
         }
     }
 
     public void FireBullet(Vector3 position, Vector3 direction, float speed, Bullet.BulletType bulletType)
     {
-        _bulletArray[_index].Fire(bulletType, position, direction, speed);
-        _index++;
-        if (_index >= _bulletArray.Length) _index = 0;
+        switch (bulletType)
+        {
+            case Bullet.BulletType.WebBullet:
+                _bulletArray[_bulletIndex].Fire(position, direction, speed);
+                _bulletIndex++;
+                if (_bulletIndex >= _bulletArray.Length) _bulletIndex = 0;
+                break;
+            case Bullet.BulletType.WebGrab:
+                _webBulletArray[_webIndex].Fire(position, direction, speed);
+                _webIndex++;
+                if (_webIndex >= _webBulletArray.Length) _webIndex = 0;
+                break;
+        }
+
     }
 }

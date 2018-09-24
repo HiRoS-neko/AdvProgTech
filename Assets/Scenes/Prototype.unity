@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.18278116, g: 0.22848535, b: 0.30702943, a: 1}
+  m_IndirectSpecularColor: {r: 0.18278135, g: 0.22848575, b: 0.30703008, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -10202,15 +10202,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4822569588158422, guid: 45985486c22d58940b9506dd7c6f2a91, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4822569588158422, guid: 45985486c22d58940b9506dd7c6f2a91, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0.70710677
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 4822569588158422, guid: 45985486c22d58940b9506dd7c6f2a91, type: 2}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4822569588158422, guid: 45985486c22d58940b9506dd7c6f2a91, type: 2}
       propertyPath: m_LocalRotation.w
@@ -10222,7 +10222,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4822569588158422, guid: 45985486c22d58940b9506dd7c6f2a91, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 90.00001
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 1228667848023746, guid: 45985486c22d58940b9506dd7c6f2a91, type: 2}
       propertyPath: m_Name
@@ -11020,7 +11020,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ba36fac722144238f260cb2741d5d5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bullet: {fileID: 114985039141407620, guid: 181587b1956393e4b82d903652b18838, type: 2}
+  _webBullet: {fileID: 114435630205995322, guid: 181587b1956393e4b82d903652b18838,
+    type: 2}
+  _webGrab: {fileID: 114554113749577584, guid: 345b4cf6c16ffc14ea3ed5c6af6d2d5e, type: 2}
   _numOfBullets: 20
 --- !u!1001 &1237980533
 Prefab:
