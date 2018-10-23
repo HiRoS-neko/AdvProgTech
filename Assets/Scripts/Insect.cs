@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using UnityEditor.PackageManager.Requests;
+using UnityEngine;
 
 public class Insect : MonoBehaviour
 {
@@ -21,6 +22,14 @@ public class Insect : MonoBehaviour
         if (dir.magnitude >= 0.02f)
             _insectBody.transform.rotation =
                 Quaternion.Slerp(_insectBody.transform.rotation, Quaternion.LookRotation(dir), 0.6f);
+        //check vertical component, if greater then 0.5f, then jump
+        if (dir.y > 0.5f)
+        {
+            Jump(5);
+        }
+        //remove vertical component and renormalize
+        dir = Vector3.ProjectOnPlane(dir, Vector3.up).normalized;
+        
         _rgd.MovePosition(transform.position + dir * _speed);
         //Add force to insect
     }

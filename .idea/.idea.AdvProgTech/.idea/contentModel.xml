@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\kg15nd\.Rider2018.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\kg15nd\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_AdvProgTech.1801823729.00" t="ExcludeRecursive" />
-    <e p="C:\Users\kg15nd\AdvProgTech" t="IncludeRecursive">
+    <e p="C:\Users\Administrator\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Administrator\.Rider2018.2\system\resharper-host\Local\Transient\ReSharperHost\v182\SolutionCaches\_AdvProgTech.-552029572.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Administrator\AdvProgTech" t="IncludeRecursive">
       <e p="AdvProgTech.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="AdvancedFSM" t="Include">
+            <e p="AdvancedFSM.cs" t="Include" />
+            <e p="FSM.cs" t="Include" />
+            <e p="FSMState.cs" t="Include" />
+          </e>
           <e p="Bullet.cs" t="Include" />
           <e p="BulletPool.cs" t="Include" />
           <e p="Insect.cs" t="Include" />
+          <e p="LadyBugAI.cs" t="Include" />
+          <e p="LadyBugStates" t="Include">
+            <e p="DeadState.cs" t="Include" />
+            <e p="FleeState.cs" t="Include" />
+            <e p="IdleState.cs" t="Include" />
+            <e p="TrackState.cs" t="Include" />
+          </e>
           <e p="LookAtPlayer.cs" t="Include" />
           <e p="Pickup.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
