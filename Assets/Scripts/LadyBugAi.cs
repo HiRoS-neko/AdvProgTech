@@ -83,16 +83,6 @@ public class LadyBugAi : AdvancedFSM
 
     private void ConstructFSM()
     {
-        pointList = GameObject.FindGameObjectsWithTag("WayPoint");
-        //
-        //Creating a waypoint transform array for each state
-        //
-        Transform[] waypoints = new Transform[pointList.Length];
-
-        for (int i = 0; i < pointList.Length; i++)
-        {
-            waypoints[i] = pointList[i].transform;
-        }
 
         TrackState trackState = new TrackState(new AIProperties {chaseDistance = 10}, transform);
         trackState.AddTransition(Transition.NoHealth, FSMStateID.Dead);

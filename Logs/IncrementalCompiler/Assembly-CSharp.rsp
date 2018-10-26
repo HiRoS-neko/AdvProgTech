@@ -5,6 +5,12 @@
 -out:C:/Users/Administrator/AdvProgTech/Temp/Assembly-CSharp.dll
 -nostdlib
 -unsafe
+-r:C:/Users/Administrator/AdvProgTech/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
+-r:C:/Users/Administrator/AdvProgTech/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+-r:C:/Users/Administrator/AdvProgTech/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+-r:C:/Users/Administrator/AdvProgTech/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
+-r:C:/Users/Administrator/AdvProgTech/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
+-r:C:/Users/Administrator/AdvProgTech/Library/ScriptAssemblies/Unity.TextMeshPro.dll
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -66,12 +72,6 @@
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/UnityEditor.dll"
 -r:"C:\Program Files\Unity\Editor\Data\Managed/Unity.Locator.dll"
--r:C:/Users/Administrator/AdvProgTech/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
--r:C:/Users/Administrator/AdvProgTech/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
--r:C:/Users/Administrator/AdvProgTech/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
--r:C:/Users/Administrator/AdvProgTech/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll
--r:C:/Users/Administrator/AdvProgTech/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll
--r:C:/Users/Administrator/AdvProgTech/Library/ScriptAssemblies/Unity.TextMeshPro.dll
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
@@ -300,7 +300,7 @@
 -i:C:/Users/Administrator/AdvProgTech/Assets/Scripts/Bullet.cs
 -i:C:/Users/Administrator/AdvProgTech/Assets/Scripts/BulletPool.cs
 -i:C:/Users/Administrator/AdvProgTech/Assets/Scripts/Insect.cs
--i:C:/Users/Administrator/AdvProgTech/Assets/Scripts/LadyBugAI.cs
+-i:C:/Users/Administrator/AdvProgTech/Assets/Scripts/LadyBugAi.cs
 -i:C:/Users/Administrator/AdvProgTech/Assets/Scripts/LadyBugStates/DeadState.cs
 -i:C:/Users/Administrator/AdvProgTech/Assets/Scripts/LadyBugStates/FleeState.cs
 -i:C:/Users/Administrator/AdvProgTech/Assets/Scripts/LadyBugStates/IdleState.cs

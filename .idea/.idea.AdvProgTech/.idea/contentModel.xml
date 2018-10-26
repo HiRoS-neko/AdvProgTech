@@ -16,7 +16,7 @@
           <e p="Bullet.cs" t="Include" />
           <e p="BulletPool.cs" t="Include" />
           <e p="Insect.cs" t="Include" />
-          <e p="LadyBugAI.cs" t="Include" />
+          <e p="LadyBugAi.cs" t="Include" />
           <e p="LadyBugStates" t="Include">
             <e p="DeadState.cs" t="Include" />
             <e p="FleeState.cs" t="Include" />
