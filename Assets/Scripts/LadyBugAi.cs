@@ -13,6 +13,7 @@ public class AIProperties
     public float speed = 3;
     public float rotSpeed = 2;
     public float chaseDistance = 20;
+    public float range = 5;
 }
 
 
@@ -83,26 +84,28 @@ public class LadyBugAi : AdvancedFSM
 
     private void ConstructFSM()
     {
-
-        TrackState trackState = new TrackState(new AIProperties {chaseDistance = 10}, transform);
-        trackState.AddTransition(Transition.NoHealth, FSMStateID.Dead);
-        trackState.AddTransition(Transition.LowHealth, FSMStateID.Fleeing);
-        trackState.AddTransition(Transition.LostPlayer, FSMStateID.Idle);
-
-        DeadState deadState = new DeadState(new AIProperties {chaseDistance = 10}, transform);
-
-        FleeState fleeState = new FleeState(new AIProperties(), transform);
-        fleeState.AddTransition(Transition.LostPlayer, FSMStateID.Idle);
-        fleeState.AddTransition(Transition.NoHealth, FSMStateID.Dead);
-
         IdleState idleState = new IdleState(new AIProperties(), transform);
         idleState.AddTransition(Transition.SawPlayer, FSMStateID.Tracking);
         idleState.AddTransition(Transition.LowHealth, FSMStateID.Fleeing);
         idleState.AddTransition(Transition.NoHealth, FSMStateID.Dead);
 
         AddFSMState(idleState);
+
+        TrackState trackState = new TrackState(new AIProperties {chaseDistance = 10}, transform);
+        trackState.AddTransition(Transition.NoHealth, FSMStateID.Dead);
+        trackState.AddTransition(Transition.LowHealth, FSMStateID.Fleeing);
+        trackState.AddTransition(Transition.LostPlayer, FSMStateID.Idle);
+
         AddFSMState(trackState);
-        AddFSMState(fleeState);
+
+        DeadState deadState = new DeadState(new AIProperties {chaseDistance = 10}, transform);
+
         AddFSMState(deadState);
+
+        FleeState fleeState = new FleeState(new AIProperties(), transform);
+        fleeState.AddTransition(Transition.LostPlayer, FSMStateID.Idle);
+        fleeState.AddTransition(Transition.NoHealth, FSMStateID.Dead);
+
+        AddFSMState(fleeState);
     }
 }

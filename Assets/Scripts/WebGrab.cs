@@ -31,7 +31,7 @@ public class WebGrab : Bullet
     /// <param name="position">Position of the fire point in world space</param>
     /// <param name="direction">Direction to be fired in world space</param>
     /// <param name="speed">Speed at which to be fired at</param>
-    public void Fire(Vector3 position, Vector3 direction, float speed)
+    public void Fire(Vector3 position, Vector3 direction, float speed, LayerMask layerMask)
     {
         for (var i = 0; i < transform.childCount; i++)
         {

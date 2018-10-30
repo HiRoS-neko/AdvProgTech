@@ -21,11 +21,11 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetButtonDown("Fire1"))
             _playerObj.Attack(_playerObj.transform.position + _playerObj.transform.forward * 50,
-                Bullet.BulletType.WebBullet);
+                Bullet.BulletType.WebBullet, LayerMask.NameToLayer("PlayerBullet"));
 
         if (_secondary && Input.GetButtonDown("Fire2"))
             _playerObj.Attack(_playerObj.transform.position + _playerObj.transform.forward * 50,
-                Bullet.BulletType.WebGrab);
+                Bullet.BulletType.WebGrab, LayerMask.NameToLayer("PlayerBullet"));
     }
 
     private void FixedUpdate()

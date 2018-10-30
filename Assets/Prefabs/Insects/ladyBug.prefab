@@ -21,9 +21,12 @@ GameObject:
   - component: {fileID: 4536917241933560}
   - component: {fileID: 114320687046819982}
   - component: {fileID: 114380808039442510}
-  m_Layer: 0
-  m_Name: ladybug
-  m_TagString: Untagged
+  - component: {fileID: 54437026697531042}
+  - component: {fileID: 114404606650899976}
+  - component: {fileID: 95607084693977096}
+  m_Layer: 10
+  m_Name: ladyBug
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39,10 +42,24 @@ GameObject:
   - component: {fileID: 33303055717273598}
   - component: {fileID: 23647952795646060}
   - component: {fileID: 64758637106843584}
-  - component: {fileID: 54343327003627858}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ladyBug
   m_TagString: enemy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1885971105771678
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4869632873942152}
+  m_Layer: 10
+  m_Name: shootLocation
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53,9 +70,9 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1497059470439130}
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 8.59, y: 0.345, z: 8.97}
-  m_LocalScale: {x: 1, y: 1, z: -1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.319, y: 0.345, z: 7.682}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4795117685356096}
   m_Father: {fileID: 0}
@@ -69,11 +86,25 @@ Transform:
   m_GameObject: {fileID: 1690092167100072}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_LocalScale: {x: 1, y: 1, z: -1}
+  m_Children:
+  - {fileID: 4869632873942152}
   m_Father: {fileID: 4536917241933560}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4869632873942152
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1885971105771678}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.129, z: -0.173}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4795117685356096}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &23647952795646060
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -116,12 +147,12 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1690092167100072}
   m_Mesh: {fileID: 4300000, guid: fcbc4cff740973f4c8fad0fcef6996d8, type: 3}
---- !u!54 &54343327003627858
+--- !u!54 &54437026697531042
 Rigidbody:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1690092167100072}
+  m_GameObject: {fileID: 1497059470439130}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -129,7 +160,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!64 &64758637106843584
 MeshCollider:
@@ -145,6 +176,24 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: fcbc4cff740973f4c8fad0fcef6996d8, type: 3}
+--- !u!95 &95607084693977096
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1497059470439130}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d6c7012f95e620f409d556fd7a1921b7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &114320687046819982
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -156,12 +205,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fac278222f0f1e4998c3b7d3e9df469, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animationStates: 00000000010000000200000003000000
+  _animator: {fileID: 95607084693977096}
   _bulletPool: {fileID: 0}
-  _fireSpeed: 0
+  _fireSpeed: 2
   _insectBody: {fileID: 1690092167100072}
-  _rgd: {fileID: 54343327003627858}
-  _shootLocation: {fileID: 0}
-  _speed: 1
+  _rgd: {fileID: 54437026697531042}
+  _shootLocation: {fileID: 1885971105771678}
+  _speed: 0.01
 --- !u!114 &114380808039442510
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -173,4 +224,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8ebc03b507e30d4c8e9ecdda865ab1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerTransform: {fileID: 0}
   LadyBug: {fileID: 114320687046819982}
+--- !u!114 &114404606650899976
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1497059470439130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a62ee1149796f14e8cd8eb755617c4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _mesh: {fileID: 4300000, guid: fcbc4cff740973f4c8fad0fcef6996d8, type: 3}
+  _meshFilter: {fileID: 33303055717273598}

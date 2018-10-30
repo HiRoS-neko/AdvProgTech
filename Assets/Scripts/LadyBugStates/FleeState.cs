@@ -10,8 +10,10 @@ namespace LadyBugStates
 
         public FleeState(AIProperties aiProperties, Transform npc)
         {
+            stateID = FSMStateID.Fleeing;
             _ladyBugAi = npc.GetComponent<LadyBugAi>();
             _aiProperties = aiProperties;
+            curSpeed = aiProperties.speed;
         }
 
         public override void Reason(Transform player, Transform npc)
@@ -40,6 +42,7 @@ namespace LadyBugStates
         {
             Vector3 newPos = Vector3.MoveTowards(npc.position, destPos, Time.deltaTime * curSpeed);
             _ladyBugAi.LadyBug.Move(npc.InverseTransformPoint(newPos).normalized);
+            _ladyBugAi.LadyBug.Jump(20);
         }
     }
 }

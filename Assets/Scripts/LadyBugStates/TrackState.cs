@@ -7,9 +7,11 @@ namespace LadyBugStates
         private AIProperties _aiProperties;
 
         private LadyBugAi _ladyBugAi;
+        private bool _shootDelay = false;
 
         public TrackState(AIProperties aiProperties, Transform npc)
         {
+            stateID = FSMStateID.Tracking;
             _ladyBugAi = npc.GetComponent<LadyBugAi>();
             _aiProperties = aiProperties;
         }
@@ -34,11 +36,18 @@ namespace LadyBugStates
 
         public override void Act(Transform player, Transform npc)
         {
+            if (IsInCurrentRange(npc.transform, player.transform.position, _aiProperties.range) &&
+                Random.Range(0, 100) == 0)
+            {
+                _ladyBugAi.LadyBug.Attack(player.transform.position, Bullet.BulletType.WebBullet, LayerMask.NameToLayer("EnemyBullet"));
+                _shootDelay = true;
+            }
         }
 
         public override void FixedAct(Transform player, Transform npc)
         {
-            Vector3 newPos = Vector3.MoveTowards(npc.position, destPos, Time.deltaTime * curSpeed);
+            destPos = player.position;
+            Vector3 newPos = Vector3.MoveTowards(npc.position, destPos, Time.fixedDeltaTime * _aiProperties.speed);
             _ladyBugAi.LadyBug.Move(npc.InverseTransformPoint(newPos).normalized);
         }
     }

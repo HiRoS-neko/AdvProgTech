@@ -10,8 +10,10 @@ namespace LadyBugStates
 
         public IdleState(AIProperties aiProperties, Transform npc)
         {
+            stateID = FSMStateID.Idle;
             _ladyBugAi = npc.GetComponent<LadyBugAi>();
-            _aiProperties = aiProperties;
+            _aiProperties = aiProperties;            curSpeed = aiProperties.speed;
+
         }
 
         public override void Reason(Transform player, Transform npc)

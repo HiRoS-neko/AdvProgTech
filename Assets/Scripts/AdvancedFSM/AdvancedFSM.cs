@@ -9,12 +9,11 @@ using System.Collections.Generic;
 /// You're free to use, modify and distribute the code in any projects including commercial ones.
 /// Please read the link to know more about CCA license @http://creativecommons.org/licenses/by-sa/3.0/
 /// </summary>
-
 public enum Transition
 {
     None = 0,
     SawPlayer,
-    LowHealth, 
+    LowHealth,
     NoHealth,
     LostPlayer
 }
@@ -34,10 +33,18 @@ public class AdvancedFSM : FSM
 
     //The fsmStates are not changing directly but updated by using transitions
     private FSMStateID currentStateID;
-    public FSMStateID CurrentStateID { get { return currentStateID; } }
+
+    public FSMStateID CurrentStateID
+    {
+        get { return currentStateID; }
+    }
 
     private FSMState currentState;
-    public FSMState CurrentState { get { return currentState; } }
+
+    public FSMState CurrentState
+    {
+        get { return currentState; }
+    }
 
     public AdvancedFSM()
     {
@@ -101,6 +108,7 @@ public class AdvancedFSM : FSM
                 return;
             }
         }
+
         Debug.LogError("FSM ERROR: The state passed was not on the list. Impossible to delete it");
     }
 

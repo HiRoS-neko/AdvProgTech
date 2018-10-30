@@ -16,7 +16,8 @@ public class WebBullet : Bullet
     /// <param name="position">Position of the fire point in world space</param>
     /// <param name="direction">Direction to be fired in world space</param>
     /// <param name="speed">Speed at which to be fired at</param>
-    public void Fire(Vector3 position, Vector3 direction, float speed)
+    /// <param name="layerMask"></param>
+    public void Fire(Vector3 position, Vector3 direction, float speed, LayerMask layerMask)
     {
         for (var i = 0; i < transform.childCount; i++)
         {
@@ -24,7 +25,7 @@ public class WebBullet : Bullet
             temp.GetComponent<Collider>().enabled = true;
         }
 
-
+        gameObject.layer = layerMask;
         _mesh.mesh = _bullet;
 
         transform.DetachChildren();
@@ -44,9 +45,14 @@ public class WebBullet : Bullet
     private void OnCollisionEnter(Collision other)
     {
         
-        if (other.gameObject.CompareTag("wall") || other.gameObject.CompareTag("floor") ||
+        if (other.gameObject.CompareTag("wall") || other.gameObject.CompareTag("floor")||
             other.gameObject.CompareTag("enemy"))
         {
+            if (other.gameObject.CompareTag("enemy"))
+            {
+                var enemy = other.gameObject.GetComponent<LadyBugAi>();
+                enemy.Health -= 25;
+            }
             _rgd.isKinematic = true;
             transform.parent = other.gameObject.transform;
             _mesh.mesh = _decal;

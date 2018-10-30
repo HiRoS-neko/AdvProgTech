@@ -31,17 +31,17 @@ public class BulletPool : MonoBehaviour
         }
     }
 
-    public void FireBullet(Vector3 position, Vector3 direction, float speed, Bullet.BulletType bulletType)
+    public void FireBullet(Vector3 position, Vector3 direction, float speed, Bullet.BulletType bulletType, LayerMask layerMask)
     {
         switch (bulletType)
         {
             case Bullet.BulletType.WebBullet:
-                _bulletArray[_bulletIndex].Fire(position, direction, speed);
+                _bulletArray[_bulletIndex].Fire(position, direction, speed, layerMask);
                 _bulletIndex++;
                 if (_bulletIndex >= _bulletArray.Length) _bulletIndex = 0;
                 break;
             case Bullet.BulletType.WebGrab:
-                _webBulletArray[_webIndex].Fire(position, direction, speed);
+                _webBulletArray[_webIndex].Fire(position, direction, speed, layerMask);
                 _webIndex++;
                 if (_webIndex >= _webBulletArray.Length) _webIndex = 0;
                 break;
